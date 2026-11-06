@@ -1,0 +1,38 @@
+{
+  "name": "agritrace-backend",
+  "version": "1.0.0",
+  "description": "AgriTrace Decentralized Supply Chain Traceability Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha --timeout 10000 --exit \"tests/**/*.test.js\""
+  },
+  "keywords": [
+    "agritrace",
+    "blockchain",
+    "traceability",
+    "express",
+    "ethers",
+    "firebase"
+  ],
+  "author": "AgriTrace Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.17.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.1.0",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
+
